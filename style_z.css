@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    padding: 0.75rem 2rem;
+    border-bottom: 2px solid #fff
+}
+.cont_logo_principal{
+    display: flex;
+    border: 1px solid #222;
+}
+.cont_menu_principal{
+    display: flex;
+    gap: 0.5rem;
+}
+.cont_menu_principal a{
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #222;
+    padding: 0.3rem 0.7rem;
+    font-size: 05.rem;
+}
