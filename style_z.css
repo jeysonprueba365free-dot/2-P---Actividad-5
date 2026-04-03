@@ -26,3 +26,115 @@
     padding: 0.3rem 0.7rem;
     font-size: 05.rem;
 }
+.cont2_espacio{
+    width: 100%;
+    height: 380px;
+    background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+    display: flex;
+}
+.cont3_principal{
+    padding: 60px 40px;
+}
+.cont3_contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.cont_contenido h2{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.cont3_subtitulo{
+display: flex;
+margin-top: 10px 30px;
+border: 1px;
+border-radius: 4px;
+font-size: 0.9rem;
+width: 340px;
+text-align: center;
+}
+.cont3_bordet{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+.cont3_tarjeta{
+    flex: 1 1 280px;   
+    max-width: 340px;
+    border-radius: 8px;
+    padding: 28px 24px;
+}
+.cont3_tarjeta h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.cont4_principal{
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.cont4_principal h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+}
+.cont4_bton{
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    border: 2px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    background-color: #E8F0FE;
+}
+.cont4_btn{
+    padding: 12px 36px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: var(--font);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+footer{
+    background: linear-gradient(135deg,#E8F0FE 100%);
+    color: var(--color-footer-txt);
+    padding: 50px 40px 30px;
+    }
+.cont5_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cont5_tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+.cont5_tarjeta h4{
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.cont5_tarjeta ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Los links se apilan verticalmente */
+    gap: 8px;
+}
